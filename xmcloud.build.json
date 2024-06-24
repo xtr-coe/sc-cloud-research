@@ -12,7 +12,7 @@
     },
     "deployItems": {
         "modules": [
-          "src/*.module.json"
+          "renderinghost.*"
         ]
       },
     "postActions": {
