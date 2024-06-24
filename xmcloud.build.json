@@ -10,6 +10,11 @@
             "startCommand": "start:production"
         }
     },
+    "deployItems": {
+        "modules": [
+          "src/*.module.json"
+        ]
+      },
     "postActions": {
         "actions":{
           "warmUpCm": {
