@@ -10,11 +10,6 @@
             "startCommand": "start:production"
         }
     },
-    "deployItems": {
-        "modules": [
-          "renderinghost.*"
-        ]
-      },
     "postActions": {
         "actions":{
           "warmUpCm": {
@@ -29,7 +24,10 @@
           },
           "reindex": {
             "indexNames": []
-          }
+          },
+          "scsModules": {
+              "modules": ["DefaultRenderingHost"]
+            }
         }
     }
 }
